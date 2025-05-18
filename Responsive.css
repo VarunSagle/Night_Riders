@@ -1,0 +1,454 @@
+
+@keyframes bike1{
+    0%  {
+      left: 350px;
+    }
+    100%{
+      left:0px;
+    }
+}
+@keyframes bike2{
+  0%  {
+    right:500px;
+  }
+  100%{
+      right:176px
+    }
+}
+@keyframes bike3{
+  0%  {
+    right:550px;
+  }
+  100%{
+      right:315px;
+    }
+}
+@keyframes bike4{
+  0%  {
+    left: 350px;
+  }
+  100%{
+    left:0px;
+  }
+}
+
+
+@keyframes Backtext4{
+  0%  {
+    left: 340px;
+  }
+  100%{
+    left:110px
+  }
+}
+@keyframes Backtext1{
+  0%  {
+    left: 340px;
+  }
+  100%{
+    left:-110px
+  }
+}
+
+@keyframes Backtext5{
+  0%  {
+    left: 700px;
+  }
+}
+@keyframes Backtext6{
+  0%  {
+    left: 700px;
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) 
+{
+  #logo{
+    position: fixed;
+    margin-left: -110px;
+    height: 600px;
+  }
+  #card{
+    left: 350px;
+  }
+  #bike1{
+    /*display: none!important;*/
+    margin-left: 30px;
+  }
+  #bike2{
+    /*display: none!important;*/
+    margin-left: 730px;
+  }
+  #bike3{
+   /*display: none!important;*/
+ margin-top: 255px;
+ margin-left: 750px;
+   
+}
+  #bike4{
+    /*display: none!important;*/
+    margin-top: 180px;
+    margin-left: 80px;
+  }
+  #box{
+    display: none! important;
+  }
+  #Backtext1{
+    margin-left: 70px;
+  }
+  #Backtext4{
+    margin-left: 50px;
+  }
+  #Backtext{
+    margin-left: 30px;
+  }
+  #Backtext3{
+    margin-left: -70px;
+  }
+  #Backtext5{
+    margin-left: -100px;
+  }
+  #Backtext6{
+    margin-left: -120px;
+  }
+  #Slogo1{
+    left: 500px;
+  }
+  #Slogo2{
+    left: 630px;
+  }
+  #Ulabel2{
+    width: 450px;
+  }
+  #SlogoI{
+    left:520px;
+    top:543px;
+  }
+  #SlogoF{
+    left:665px;
+    top:543px;
+  }
+
+  @keyframes bike2{
+    0%  {
+      right:300px;
+    }
+    100%{
+        right:-30px;
+      }
+}
+@keyframes bike3{
+  0%  {
+    right:330px;
+  }
+  100%{
+    right:100px;
+  }
+
+}
+
+}
+  
+
+
+@media screen and (max-width: 992px)
+{
+   #messageBar{
+   margin-left: 430px;
+   font-size: 20px;
+   width: 130px;
+   }
+  #logo{
+    position: fixed;
+    margin-left: -210px;
+    height: 600px;
+  }
+  #card{
+    left: 250px;
+  }
+  #bike1{
+    /*display: none!important;*/
+    margin-left: 10px;
+    height: 250px;
+    width: 350px;
+  }
+  #bike2{
+    /*display: none!important;*/
+    margin-left: 620px;
+    height: 340px;
+    width: 400px;
+  }
+  #bike3{
+   /*display: none!important;*/
+    margin-top: 255px;
+    margin-left: 650px;
+    height: 240px;
+    width: 300px
+  }
+  #bike4{
+    /*display: none!important;*/
+    margin-top: 180px;
+    margin-left: 50px;
+    height: 340px;
+    width: 330px
+  }
+  #box{
+    display: none! important;
+  }
+  #Backtext1{
+    font-size: 170px;
+    margin-top: 40px;
+    margin-left: 70px;
+  }
+  #Backtext4{
+    font-size: 170px;
+     margin-top: 40px;
+    margin-left: 10px;
+  }
+  #Backtext{
+    font-size: 170px;
+     margin-top: 40px;
+    margin-left: -60px;
+  }
+  #Backtext3{
+    font-size: 145px;
+     margin-top: 40px;
+    margin-left: -170px;
+  }
+  #Backtext5{
+    font-size: 145px;
+     margin-top: 40px;
+    margin-left: -240px;
+  }
+  #Backtext6{
+    font-size: 145px;
+     margin-top: 40px;
+    margin-left: -300px;
+  }
+  #Slogo1{
+    left: 400px;
+  }
+  #Slogo2{
+    left: 530px;
+  }
+  #Ulabel2{
+    width: 450px;
+  }
+  #SlogoI{
+    left:420px;
+    top:543px;
+  }
+  #SlogoF{
+    left:565px;
+    top:543px;
+  }
+
+  @keyframes bike3{
+    0%  {
+      right:300px;
+    }
+    100%{
+      right:40px;
+    }
+  }
+}
+
+
+
+
+@media screen and (max-width: 768px)
+{
+  #card{
+    height: 530px;
+    width: 395px;
+    left:190px;
+    }
+     
+     #name{
+       margin-left:0px;
+       width:260px;
+     }
+     #email{
+       margin-left:0px;
+       width:260px;
+     }
+     #textarea{
+      margin-left:0px;
+      width:250px;
+     }
+     #submit{
+      margin-left: 110px;
+     }
+     #messageBar{
+     margin-left: 310px;
+     font-size: 20px;
+     width: 130px;
+     }
+    #logo{
+      position: fixed;
+      margin-left: -315px;
+      height: 565px;
+    }
+    #bike1{
+      display: none!important;
+    }
+    #bike2{
+      display: none!important;
+    }
+    #bike3{
+      display: none!important;
+    }
+    #bike4{
+      display: none!important;
+    }
+    #Backtext1{
+      font-size: 166px;
+      margin-top: 40px;
+      margin-left: 70px;
+      color: rgba(255, 255, 255, 0.808);
+
+    }
+    #Backtext4{
+      font-size: 166px;
+       margin-top: 40px;
+      margin-left: 10px;
+      color: rgba(255, 255, 255, 0.299);
+    }
+    #Backtext{
+      display: none!important;
+      /*font-size: 170px;
+       margin-top: 40px;
+      margin-left: -60px;*/
+    }
+    #Backtext3{
+      display: none!important;
+      /*font-size: 155px;
+       margin-top: 40px;
+      margin-left: -170px;*/
+    }
+    #Backtext5{
+      font-size: 140px;
+      margin-top: 40px;
+      margin-left: -460px;
+      color: rgba(255, 255, 255, 0.299);
+
+    }
+    #Backtext6{
+      font-size: 140px;
+      margin-top: 40px;
+      margin-left: -520px;
+      color: rgba(255, 255, 255, 0.808);
+
+    }
+    #Slogo1{
+      height: 50px;
+      width: 50px;
+      left: 330px;
+    }
+    #Slogo2{
+      height: 50px;
+      width: 50px;
+      left: 410px;
+    }
+    #Ulabel2{
+      width: 330px;
+    }
+    #SlogoI{
+      left:140px;
+      top:530px;
+      height: 30px;
+    }
+    #SlogoF{
+      left:246px;
+      top:533px;
+      height: 30px;
+    }
+    
+    }
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+ #card{
+  height: 530px;
+  width: 395px;
+  left:-0px;  
+   }
+   #name{
+     margin-left:0px;
+     width:260px;
+   }
+   #email{
+     margin-left:0px;
+     width:260px;
+   }
+   #textarea{
+    margin-left:0px;
+    width:250px;
+   }
+   #submit{
+    margin-left: 100px;
+   }
+   #messageBar{
+   margin-left: 120px;
+   font-size: 20px;
+   width: 130px;
+   }
+ 
+  #logo{
+    position: fixed;
+    margin-left: -515px;
+    height: 585px;
+  }
+
+  #bike1{
+    display: none!important;
+  }
+  #bike2{
+    display: none!important;
+  }
+  #bike3{
+    display: none!important;
+  }
+  #bike4{
+    display: none!important;
+  }
+  #Backtext{
+    display: none!important;
+  }
+  #Backtext4{
+    display: none!important;
+  }
+  #Backtext3{
+    display: none!important;
+  }
+  #Backtext5{
+    display: none!important;
+  }
+    #Backtext1{
+    margin-left: 80px;
+    font-size: 166px;
+  }
+  #Backtext6{
+    margin-left: -860px;
+    font-size: 140px;
+  }
+  #Slogo1{
+    height: 50px;
+    width: 50px;
+    left: 130px;
+  }
+  #Slogo2{
+    height: 50px;
+    width: 50px;
+    left: 230px;
+  }
+  #Ulabel2{
+    width: 330px;
+  }
+}

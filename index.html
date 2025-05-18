@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="icon" href="imgs/logoicon.png" type="image/x-icon">
+  <!-- Bootstrap CSS link -->
+  <link rel="stylesheet" href="Responsive.css">
+  <link rel="stylesheet" href="Contact.css">
+
+
+  <style>
+    
+  </style>
+
+</head>
+<body style="background-color: rgb(67, 66, 66);">
+
+    <div class="message-bar" id="messageBar">Message Sent</div>
+
+  <h1 class="Backtext" id="Backtext" >NIGHT</h1>
+<h1 class="Backtext1" id="Backtext1" >NIGHT</h1>
+<h1 class="Backtext3" id="Backtext3">RIDERS</h1>
+<h1 class="Backtext4" id="Backtext4">NIGHT</h1>
+<h1 class="Backtext5" id="Backtext5">RIDERS</h1>
+<h1 class="Backtext6" id="Backtext6">RIDERS</h1>
+
+<img src="imgs/logoicon.png" class="logo" id="logo">
+<div class="box" id="box"></div>
+
+<img src="imgs/bike (1).png" height="280" width="450" class="bike1" id="bike1">
+<img src="imgs/bike (2).png" height="370" width="500" class="bike2" id="bike2">
+<img src="imgs/bike (3).png" height="300" width="350" class="bike3" id="bike3">
+<img src="imgs/bike (4).png" height="400" width="400" class="bike4" id="bike4"> 
+
+
+
+ 
+        <div class="card" id="card" > 
+          <h1>Contact</h1>
+           <hr style="border: solid rgb(123, 122, 122) 0.1px; ">
+
+            <form id="emailForm">
+
+              <label for="">Name: <input type="text" class="input" id="name" placeholder="Name..." required > </label><br>
+              
+              <label for="">Email: <input type="email" class="input" id="email" placeholder="example@email.com" required> </label><br>
+
+              <label for="">Text: <textarea name="Custamer" placeholder="type..." id="textarea" class="textarea" cols="33" rows="5" required></textarea> </label>
+
+               <input type="submit" class="submit" id="submit" value="submit">
+            </form>
+            <!-- <hr style="background-color: black; "> -->
+          </div>
+        
+
+
+
+
+ <script>
+    const form = document.getElementById("emailForm");
+    const email = document.getElementById("email");
+    const messageBar = document.getElementById("messageBar");
+
+    email.addEventListener("input", () => {
+      if (email.checkValidity()) {
+        email.style.backgroundColor = "lightgreen";
+      } else {
+        email.style.backgroundColor = "lightcoral";
+      }
+    });
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      if (email.checkValidity()) {
+        messageBar.style.opacity = "1";
+
+        setTimeout(() => {
+          messageBar.style.opacity = "0";
+        }, 1000);
+
+        form.reset();
+        email.style.backgroundColor = "white";
+      } else {
+        email.reportValidity();
+      }
+    });
+  </script>
+
+
+</body>
+</html>
